@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+body {
+  background-image: url('../images/railway_colombo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
