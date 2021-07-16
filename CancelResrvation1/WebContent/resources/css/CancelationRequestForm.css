@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.google.com/specimen/Roboto+Slab?query=roboto+slab');
+
+body {
+    background: #027676;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    width: 550px;
+    background-color:white;
+   
+    padding-left:120px;
+    padding-top:10px;
+    padding-bottom:50px;
+    margin-left:350px;
+    margin-top:50px;
+    
+}
+
+.text-muted {
+    font-weight: 700 !important;
+    font-size: 13px;
+    color: #6c757dcc !important;
+    padding-left:0px;
+}
+
+h2 {
+    color: #028282;
+    padding: 10px 0 20px;
+    font-family: Roboto Slab !important;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.first {
+    margin-top: 2 !important;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid;
+
+}
+
+.form-group label {
+    font-size: 12px;
+    font-weight: bold;
+    color:#5B5352;
+}
+
+.form-group span {
+    color: rgb(255, 0, 0);
+    font-size:20px;
+}
+
+.form-control:focus {
+    border: 2px solid #adb5bd;
+    border-radius: 0;
+    box-shadow: none;
+    background: #A69895;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.form-check-label {
+    font-size: 12px;
+    font-weight: bold;
+    color:#5B5352;
+}
+
+.btn-block {
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background: #027676;
+}
+
+.btn-block:hover {
+    background: #1ED7BB;
+}
+
+.btn-block:focus {
+    box-shadow: none;
+    background: #018080 !important;
+}
+
+.btn-primary span {
+    font-size: 12px;
+}
+
+.val_error {
+    color: #dc3545;
+    font-size: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+}

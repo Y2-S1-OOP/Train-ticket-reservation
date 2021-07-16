@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+        
+        <servlet>
+		<servlet-name>CheckReservation</servlet-name>
+		<servlet-class>train.Servlet.CheckReservationServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+		<servlet-name>CheckReservation</servlet-name>
+		<url-pattern>/CheckReservation</url-pattern>
+	    </servlet-mapping>
+	    
+	    <servlet>
+	    <servlet-name>CancelationRequest</servlet-name>
+	    <servlet-class>train.Servlet.CancelationRequestServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+		<servlet-name>CancelationRequest</servlet-name>
+		<url-pattern>/CancelationRequest</url-pattern>
+	    </servlet-mapping>
+	    
+	    <servlet>
+	    <servlet-name>UpdateReservation</servlet-name>
+	    <servlet-class>train.Servlet.UpdateReservationServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+		<servlet-name>UpdateReservation</servlet-name>
+		<url-pattern>/UpdateReservation</url-pattern>
+	    </servlet-mapping>
+	    
+	    
+	    <servlet>
+	    <servlet-name>DeleteReservation</servlet-name>
+	    <servlet-class>train.Servlet.DeleteReservationServlet</servlet-class>
+	    </servlet>
+	    <servlet-mapping>
+		<servlet-name>DeleteReservation</servlet-name>
+		<url-pattern>/DeleteReservation</url-pattern>
+	    </servlet-mapping>
+	    
+	   
+
+</web-app>
+         
+         
