@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+body {
+  background-image: url('../images/Exterior_of_train_Sri_Lanka_G.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-opacity: ;
+}
+
+table {
+  font-family: 'PT Sans', sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cccccc;
+  background: rgba(204, 204, 204, 0.9);
+  border-radius: 10px;
+  text-align: center;
+ 
+}
+
+td, th {
+  border: 0px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+thead {
+	border: 0px solid #dddddd;
+  	background-color: #4d4d4d;
+   border-radius: 10px;
+   color: white
+}
+
+.title {
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #f2f2f2;
+	background-color:black;
+}

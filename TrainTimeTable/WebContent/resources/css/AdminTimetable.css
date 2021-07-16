@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+
+
+.addtrain {
+	background-color: #202060;
+	font-size: 20px;
+    padding: 5px 40px;
+    color: #ececf9;
+    float: right;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    
+}
+
+.addtrain:hover {
+  background-color: #f6f7fa;
+  color: #202060;
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border: 5px solid #dddddd;
+  padding: 15px; 
+   
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+.delete {
+	background-color:#FC3D14;
+	color:black;
+	
+}
+
+.update {
+	background-color:lightgreen;
+	color:black;
+	
+}
